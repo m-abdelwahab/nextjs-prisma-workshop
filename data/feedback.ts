@@ -1,6 +1,6 @@
 export const feedback = [
   {
-    message: 'Lovely app',
+    message: 'Lovely app - hardcoded  message',
     id: '8a400816-9ccf-40c3-9d63-33cb3ca01217',
     feedbackType: 'FEEDBACK',
     name: 'Mahmoud',

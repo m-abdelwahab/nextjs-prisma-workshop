@@ -11,35 +11,20 @@ export default function Home() {
     formState: { errors, isSubmitted },
   } = useForm();
 
-  const create = async (data) => {
-    try {
-      fetch('http://localhost:3000/api/create', {
-        body: JSON.stringify(data),
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        method: 'POST',
-      });
-    } catch (error) {
-      throw new Error(error);
-    }
-  };
+  const create = async (data) => {};
+
   const onSubmit = async (data) => {
-    try {
-      toast.promise(
-        create(data),
-        {
-          loading: 'Working on it...',
-          success: 'Feedback submitted successfully!',
-          error: 'Oops! something went wrong.',
-        },
-        {
-          duration: 3000,
-        }
-      );
-    } catch (error) {
-      toast.error(error);
-    }
+    toast.promise(
+      create(data),
+      {
+        loading: 'Working on it...',
+        success: 'Feedback submitted successfully!',
+        error: 'Oops! something went wrong.',
+      },
+      {
+        duration: 3000,
+      }
+    );
   };
 
   return (
