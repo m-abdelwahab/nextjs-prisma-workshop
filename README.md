@@ -215,12 +215,18 @@ if (process.env.NODE_ENV !== 'production') global.prisma = prisma;
 
 ```
 
-
-### `feedback` endpoint
-
-```
-
-
+```ts
+    try {
+      fetch('http://localhost:3000/api/create', {
+        body: JSON.stringify(data),
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        method: 'POST',
+      });
+    } catch (error) {
+      throw new Error(error);
+    }
 ```
 
 
