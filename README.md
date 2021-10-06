@@ -1,10 +1,14 @@
 # Next.js X Prisma Workshop
 
+![Prisma   NextAuth js 2](https://user-images.githubusercontent.com/27310414/136209309-bdfba81f-0faa-4ba7-9537-23ec03425697.png)
+
 This is a workshop that will teach you how to build a fullstack app using [Next.js](https://nextjs.org) and [Prisma](https://prisma.io).
 
-- Next.js: fullstack React framework
-- Prisma: next-generation ORM for Node.js and TypeScript
 
+Next.js is a fullstack React framework, it allows you to build your frontend using React and easily set up an API. The framework also supports different data fetching strategies: you can fetch data at build time, client-side or server-side.
+
+
+Prisma is a next-generation ORM for Node.js and TypeScript. It makes working with databases easy by providing you with simple workflows.
 
 ## Prerequisites
 
