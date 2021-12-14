@@ -106,6 +106,12 @@ You'll find the following project structure
 npm install prisma -D
 ```
 
+### Initialize Prisma in your project
+
+```
+npx prisma init
+```
+
 ### Writing the database schema using Prisma
 
 
